@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -18714,6 +18714,10 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="D3" library="597-5311-402F" deviceset="597-5311-402F" device="" value="GREEN"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2K"/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18846,6 +18850,20 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <instance part="GND10" gate="1" x="10.16" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="7.62" y="-5.08" size="1.778" layer="96"/>
 </instance>
+<instance part="D3" gate="G$1" x="106.68" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.60973125" y="0.50486875" size="1.780740625" layer="95" rot="R90"/>
+<attribute name="VALUE" x="110.49315" y="0.50631875" size="1.77946875" layer="96" rot="R90"/>
+</instance>
+<instance part="R5" gate="G$1" x="106.68" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.1814" y="13.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="13.97" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+10" gate="VCC" x="106.68" y="25.4" smashed="yes">
+<attribute name="VALUE" x="104.14" y="22.86" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND11" gate="1" x="106.68" y="-7.62" smashed="yes">
+<attribute name="VALUE" x="104.14" y="-10.16" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18900,6 +18918,10 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+5V" class="2">
@@ -19123,6 +19145,16 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <wire x1="20.32" y1="58.42" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <junction x="20.32" y="58.42"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="P+10" gate="VCC" pin="VCC"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
