@@ -17538,15 +17538,15 @@ Passive SMD Crystal</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
-<part name="D1" library="597-5311-402F" deviceset="597-5311-402F" device="" value="YELLOW"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="D1" library="597-5311-402F" deviceset="597-5311-402F" device="" value="BLUE"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10u"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="B/3528-21W" package3d_urn="urn:adsk.eagle:package:23411/1" value="10uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="B/3528-21W" package3d_urn="urn:adsk.eagle:package:23411/1" value="100u"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10u"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D2" library="597-5311-402F" deviceset="597-5311-402F" device="" value="GREEN"/>
+<part name="D2" library="597-5311-402F" deviceset="597-5311-402F" device="" value="BLUE"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="IC1" library="lm1117" deviceset="LM1117MPX-*" device="" technology="3.3" value=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17567,7 +17567,7 @@ Passive SMD Crystal</description>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$1" library="SMD Tact" deviceset="TS36CA-0.7" device=""/>
+<part name="BTN1" library="SMD Tact" deviceset="TS36CA-0.7" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -17705,23 +17705,23 @@ Passive SMD Crystal</description>
 <instance part="GND12" gate="1" x="76.2" y="45.72" smashed="yes">
 <attribute name="VALUE" x="73.66" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="124.46" y="0" smashed="yes" rot="R90">
-<attribute name="NAME" x="122.9614" y="-3.81" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="127.762" y="-3.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="116.84" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.3414" y="6.35" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.142" y="6.35" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R7" gate="G$1" x="83.82" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.3214" y="21.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="87.122" y="21.59" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+3" gate="G$1" x="124.46" y="10.16" smashed="yes">
-<attribute name="VALUE" x="121.92" y="7.62" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="G$1" x="116.84" y="20.32" smashed="yes">
+<attribute name="VALUE" x="114.3" y="17.78" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="114.3" y="-5.08" smashed="yes"/>
-<instance part="GND1" gate="1" x="106.68" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="104.14" y="-12.7" size="1.778" layer="96"/>
+<instance part="BTN1" gate="G$1" x="106.68" y="5.08" smashed="yes"/>
+<instance part="GND1" gate="1" x="99.06" y="0" smashed="yes">
+<attribute name="VALUE" x="96.52" y="-2.54" size="1.778" layer="96"/>
 </instance>
-<instance part="GND13" gate="1" x="114.3" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="111.76" y="-12.7" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="106.68" y="0" smashed="yes">
+<attribute name="VALUE" x="104.14" y="-2.54" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -17781,12 +17781,12 @@ Passive SMD Crystal</description>
 <wire x1="76.2" y1="48.26" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="BTN1" gate="G$1" pin="P$1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="106.68" y1="-7.62" x2="106.68" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="2.54" x2="99.06" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CASE"/>
+<pinref part="BTN1" gate="G$1" pin="CASE"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -18027,7 +18027,7 @@ Passive SMD Crystal</description>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="G$1" pin="+3V3"/>
-<wire x1="124.46" y1="5.08" x2="124.46" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="15.24" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -18043,12 +18043,12 @@ Passive SMD Crystal</description>
 <label x="152.4" y="55.88" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
+<pinref part="BTN1" gate="G$1" pin="P$2"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="-5.08" x2="121.92" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-5.08" x2="127" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="124.46" y="-5.08"/>
-<label x="127" y="-5.08" size="1.016" layer="95" xref="yes"/>
+<wire x1="116.84" y1="5.08" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="5.08" x2="119.38" y2="5.08" width="0.1524" layer="91"/>
+<junction x="116.84" y="5.08"/>
+<label x="119.38" y="5.08" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IO2" class="0">
