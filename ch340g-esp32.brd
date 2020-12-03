@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -126,12 +126,12 @@
 <wire x1="35" y1="1.5" x2="34" y2="2" width="0.2" layer="21"/>
 <wire x1="34" y1="2" x2="34" y2="1" width="0.2" layer="21"/>
 <wire x1="34" y1="1" x2="35" y2="1.5" width="0.2" layer="21"/>
-<text x="30.5" y="2.5" size="1.27" layer="21">ESP01</text>
+<text x="30.5" y="2.5" size="1.27" layer="21" font="vector">ESP01</text>
 <text x="31.5" y="16" size="1.27" layer="21">GND</text>
-<text x="27" y="16.5" size="1.27" layer="21">T</text>
-<text x="27" y="1" size="1.27" layer="21">R</text>
+<text x="26.5" y="16.5" size="2" layer="21" ratio="15">T</text>
+<text x="26.5" y="1.5" size="2" layer="21" font="vector" ratio="15">R</text>
 <text x="30" y="16" size="3" layer="26" ratio="20" rot="MR0">USB-UART</text>
-<text x="29.5" y="13" size="1.27" layer="26" rot="MR0">GND</text>
+<text x="29.5" y="13" size="1.27" layer="26" ratio="15" rot="MR0">GND</text>
 <text x="29.5" y="10.5" size="1.27" layer="26" rot="MR0">IO2</text>
 <text x="29.5" y="8" size="1.27" layer="26" rot="MR0">IO0</text>
 <text x="29.5" y="5.5" size="1.27" layer="26" rot="MR0">RX</text>
@@ -156,7 +156,7 @@
 <wire x1="35" y1="16.5" x2="34" y2="17" width="0.2" layer="26"/>
 <wire x1="34" y1="17" x2="34" y2="16" width="0.2" layer="26"/>
 <wire x1="34" y1="16" x2="35" y2="16.5" width="0.2" layer="26"/>
-<text x="19" y="1" size="1.27" layer="26" rot="MR0">https://ovcharov.me/</text>
+<text x="18.5" y="10" size="1.27" layer="26" rot="MR0">https://ovcharov.me/</text>
 <wire x1="31" y1="3.5" x2="35" y2="3.5" width="0.2" layer="26"/>
 <wire x1="35" y1="3.5" x2="34" y2="4" width="0.2" layer="26"/>
 <wire x1="34" y1="4" x2="34" y2="3" width="0.2" layer="26"/>
@@ -164,8 +164,8 @@
 <rectangle x1="33.5" y1="15" x2="35" y2="16" layer="25"/>
 <text x="35" y="1.5" size="1.27" layer="26" rot="MR0">ESP01</text>
 <text x="5" y="5.5" size="1.016" layer="25" rot="R90">JLCJLCJLCJLC</text>
-<text x="11.5" y="0.5" size="1.27" layer="25">Reset</text>
-<text x="1.5" y="0.5" size="1.27" layer="25">On</text>
+<text x="11.5" y="0.5" size="1.27" layer="25" font="vector">Reset</text>
+<text x="2" y="0.5" size="1.27" layer="25" font="vector">On</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
