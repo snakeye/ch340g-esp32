@@ -6,7 +6,6 @@ More info in my blog [https://en.ovcharov.me/2019/08/16/ch340g-programmer-for-es
 
 ![Schematics](images/CH340G%20-%20schematic.png)
 
-![PCB](images/ch340g%20-%20pcb.jpg)
+## Update log
 
-
-
+**Updated 2020/12/21** Added USB Type C connector and changed header pinout for compatibility with ESP01e
